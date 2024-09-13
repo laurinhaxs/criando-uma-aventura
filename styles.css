@@ -1,0 +1,33 @@
+body {
+background-color: rgb(58, 74, 35);
+color: white;
+font-family: "IBM Plex Serif", serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0px;
+}
+
+button {
+background-color: rgb(141, 178, 89);
+color: white;
+font-family: "IBM Plex Serif", serif;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+  text-align: center;
+  max-width: 60%;
+}
+
+img {
+  max-width: 90%;
+}
